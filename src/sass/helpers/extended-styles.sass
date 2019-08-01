@@ -1,0 +1,32 @@
+.standard-block-style
+  padding: 25px 30px
+  background-color: $colorWhite
+@mixin post-grid($columns, $width)
+  display: grid
+  grid-template-columns: repeat($columns, $width)
+  grid-template-rows: auto
+  margin-bottom: 30px
+
+//.post-grid
+//  display: grid
+//  grid-template-columns: repeat(5, 1fr)
+//  grid-template-rows: auto auto auto
+//  margin-bottom: 30px
+
+//.post-title
+//
+//
+//.post-description
+//  //grid-column: 1/6
+//
+//
+//.post-answers-info
+//  display: flex
+//  //grid-column: 1/6
+//
+//.post-answers-count
+//  margin-right: 30px
+//  @include addIconBeforeText("../img/count-of-answers-ico.svg", 8px)
+//
+//.post-avatar
+//

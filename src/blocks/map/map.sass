@@ -1,0 +1,51 @@
+.map-container
+  position: relative
+  padding-top: 50%
+
+  .help-window
+    display: flex
+    position: absolute
+    z-index: 999
+    top: 25%
+    left: 20%
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    width: 60%
+    height: 50%
+    padding: 30px
+    border-radius: $smallBorderRadius
+    background-color: #fff
+
+    @media screen and (orientation: portrait) and (max-width: $mediaLaptop)
+      width: 70% !important
+      height: 60% !important
+      top: 20% !important
+      left: 15% !important
+
+    @media screen and (orientation: portrait) and (max-width: $mediaMobile)
+      width: 80% !important
+      height: 80% !important
+      top: 10% !important
+      left: 10% !important
+
+    &__title
+      text-align: center
+
+    &__other-info
+      margin: 15px 0
+
+    &__btn
+      position: relative
+      z-index: 1
+      padding: 12px 25px
+      overflow: hidden
+      font-size: $textNormal
+      cursor: pointer
+      @include common-btn-style($smallBorderRadius)
+
+  #map
+    position: absolute
+    top: 0
+    width: 100%
+    height: 100%

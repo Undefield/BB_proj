@@ -1,36 +1,62 @@
+@font-face
+  font-family: "Museo Cyrl"
+  src : url("../../assets/museocyrl/Museocyrl500.ttf")
 
 $textSmall: 13px
 $textNormal: 15px
 $textBig: 24px
 
+$titleNormal: 18px
+$titleBig: 21px
+
 $mediaMobile: 770px
 $mediaLaptop: 1024px
 
-$borderRadius: 3px
+$smallBorderRadius: 3px
+$normalBorderRadius: 100px
+$bigBorderRadius: 50%
 
+$mainGradient: linear-gradient(134.04deg, #FF3288 12.17%, #B053BF 49.22%, #1F6AFD 87.85%)
 $gradientGreen: linear-gradient(270deg, #19b1d2 0%, #00e0aa 100%)
+$colorWhite: #fff
 $colorPink: #ef498f
 $colorYellow: #ffb443
 $colorGreen: #25d088
 $colorBlue: #3186ea
+$colorGrey: #808080
 $advertising: #edfff5
 
-*, ::before, ::after
+*,
+::before,
+::after
   box-sizing: border-box
+  font-family: 'Museo Cyrl'
+
 html
   scroll-behavior: smooth
+
 section
   margin-bottom: 30px
+
+  &:last-child
+    margin-bottom: 0
+
 h1, h2, h3, h4, p
   margin: 0
+  font-weight: normal
+
 a
-  text-decoration: none
   color: #000
+  text-decoration: none
+
 img
   max-width: 100%
+
 button
-  border: none
   padding: 0
+  border: 0
+  background-color: transparent
+
 body
   position: relative
   max-width: 100vw
@@ -39,21 +65,21 @@ body
   overflow-x: hidden
   background: #E5E5E5
   font-family: 'Roboto', sans-serif
+
 .main-part
   display: flex
+
 .advertising228
   width: 100%
   height: 200px
   background-color: $advertising
   font-size: 6em
   text-align: center
+  z-index: 99
+
 .content_wrapper
   max-width: 990px
   margin: 0 auto
-@mixin link-style($margin-top-bottom: 5px)
-  margin: $margin-top-bottom 0
-  color: #3186ea
-  font-size: $textNormal
-  line-height: 20px
-  text-decoration: underline
-  text-decoration-color: rgb(219, 234, 252)
+
+.header
+  overflow: hidden

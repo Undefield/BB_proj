@@ -1,0 +1,26 @@
+.footer
+  margin-top: 60px
+  padding: 30px
+  background-color: #fff
+
+  &__menu
+    display: flex
+    justify-content: space-evenly
+
+    .link
+      @include link-style()
+
+  &__other-content
+    display: flex
+    justify-content: space-between
+    margin-top: 20px
+
+    .about
+      flex-basis: 65%
+      color: $colorGrey
+      font-size: $textSmall
+      text-align: center
+
+    span
+      font-size: 30px
+      font-weight: bolder

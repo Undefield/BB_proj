@@ -16,24 +16,32 @@
         </div>
       </nav>
       <div class="content_wrapper">
-        <div class="header-strip">
-          <button class="header-strip__inner-element menu-button"><img class="menu-button__icon" src="./img/menu-ico.svg" alt="menu icon"><span class="menu-button__button-name">Menu</span></button>
-          <div class="header-strip__inner-element search-area">
-            <label class="search-area__icon" for="search-area"><img src="./img/search-ico.svg" alt="search icon"></label>
-            <input class="search-area__input" id="search-area" placeholder="Поиск по зачатию">
+        <div class="header">
+          <div class="header-strip">
+            <button class="header-strip__inner-element menu-button"><img class="menu-button__icon" src="./img/menu-ico.svg" alt="menu icon"><span class="menu-button__button-name">Menu</span></button>
+            <div class="header-strip__inner-element search-area">
+              <label class="search-area__icon" for="search-area"><img src="./img/search-ico.svg" alt="search icon"></label>
+              <input class="search-area__input" id="search-area" placeholder="Поиск">
+            </div>
+            <div class="header-strip__inner-element logo"><img class="logo__image" src="./img/logo.svg" alt="logo"></div>
+            <button class="header-strip__inner-element edit"><img class="edit__icon" src="./img/header-pencil-ico.svg" alt="pencil icon"></button>
+            <div class="header-strip__inner-element account">
+              <button class="account__element account__comments"><img src="./img/comments-ico.svg" alt="comments icon"></button>
+              <button class="account__element account__notification"><img src="./img/notification-ico.svg" alt="notification icon"></button>
+              <button class="account__element account__notification"><img src="./img/notification-ico.svg" alt="notification icon"></button>
+              <button class="account__element account__acc-icon">Мой дневник<img src="./img/account-ico.svg" alt="account icon"></button>
+            </div>
           </div>
-          <div class="header-strip__inner-element logo"><img class="logo__image" src="./img/logo.svg" alt="logo"></div>
-          <div class="header-strip__inner-element account"><img class="account__icon" src="./img/avatar.svg" alt="avatar icon"><a class="account__text" href="#">Мой дневник</a></div>
-        </div>
-        <div class="header-introducing">
-          <div class="header-introducing__text header-main-part"><img class="header-main-part__fav-ico" src="./img/fav-ico.svg" alt="fav icon">
-            <h3 class="header-main-part__subtitle">бэбиблог</h3>
-            <h1 class="header-main-part__title">зачатие</h1>
-            <p class="header-main-part__description">Всё о естественном планировании беременности, репродуктологии, бесплодии и процедурах ЭКО</p>
+          <div class="header-introducing">
+            <div class="header-introducing__text header-main-part"><img class="header-main-part__fav-ico" src="./img/fav-ico.svg" alt="fav icon">
+              <h3 class="header-main-part__subtitle">бэбиблог</h3>
+              <h1 class="header-main-part__title">зачатие</h1>
+              <p class="header-main-part__description">Всё о естественном планировании беременности, репродуктологии, бесплодии и процедурах ЭКО</p>
+            </div>
+            <div class="header-introducing__links-block links-block"><a class="links-block__link" href="#">Зачатие</a><a class="links-block__link" href="#">Бесплодие</a><a class="links-block__link" href="#">Всё об ЭКО</a><a class="links-block__link" href="#">Вопросы</a></div>
           </div>
-          <div class="header-introducing__links-block links-block"><a class="links-block__link" href="#">Зачатие</a><a class="links-block__link" href="#">Бесплодие</a><a class="links-block__link" href="#">Всё об ЭКО</a><a class="links-block__link" href="#">Вопросы</a></div>
         </div>
-        <section id="content-blocks">
+        <section class="content-blocks">
           <div class="block">
             <h2 class="block__title">Зачатие</h2>
             <p class="block__description">Планируете зачать ребёнка? Этот раздел для вас, мы собрали всё от начала планирования до зачатия</p>
@@ -69,25 +77,141 @@
                 <h3 class="slider-info__service-name">Консультация репродуктолога</h3><span class="slider-info__city-name">Санкт-Петеребург</span>
               </div>
             </div>
-            <div class="slider-block"><img class="slider-block__image" src="./img/slider-img-2.svg" alt="slider image 2">
-              <div class="slider-block__info slider-info"><a class="slider-info__link" href="#">Бесплатный приём</a>
-                <h3 class="slider-info__service-name">Первый прием по программе ЭКО</h3><span class="slider-info__city-name">Москва</span>
+            <div class="slider-block"><img class="slider-block__image" src="./img/slider-img-1.svg" alt="slider image 1">
+              <div class="slider-block__info slider-info"><a class="slider-info__link" href="#">15% скидка</a>
+                <h3 class="slider-info__service-name">Консультация репродуктолога</h3><span class="slider-info__city-name">Санкт-Петеребург</span>
+              </div>
+            </div>
+            <div class="slider-block"><img class="slider-block__image" src="./img/slider-img-1.svg" alt="slider image 1">
+              <div class="slider-block__info slider-info"><a class="slider-info__link" href="#">15% скидка</a>
+                <h3 class="slider-info__service-name">Консультация репродуктолога</h3><span class="slider-info__city-name">Санкт-Петеребург</span>
+              </div>
+            </div>
+            <div class="slider-block"><img class="slider-block__image" src="./img/slider-img-1.svg" alt="slider image 1">
+              <div class="slider-block__info slider-info"><a class="slider-info__link" href="#">15% скидка</a>
+                <h3 class="slider-info__service-name">Консультация репродуктолога</h3><span class="slider-info__city-name">Санкт-Петеребург</span>
               </div>
             </div>
           </div>
         </section>
         <section class="block-wrap">
-          <div class="block-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam natus sapiente sequi temporibus vel. Animi atque expedita magnam minus modi neque officia, praesentium quia sunt unde. Eveniet ex omnis placeat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab assumenda dolorem enim eveniet incidunt, praesentium quos? Corporis eaque eum illo iste itaque suscipit veniam? Ab ad assumenda vel? Fuga, possimus.</div>
-          <div class="block-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, atque commodi consequatur dolore eligendi error eum laudantium neque, nobis officiis placeat quis reiciendis, saepe. Accusantium inventore laborum odio repudiandae unde.</div>
-          <div class="block-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aut deserunt doloribus earum eos error excepturi impedit ipsa laboriosam molestias nemo, perspiciatis qui quis quo quos recusandae sint tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At corporis deleniti doloribus error facere fugit ipsa ipsam iure, maxime minima mollitia nam necessitatibus nesciunt nostrum odio praesentium quas quibusdam tempora. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam asperiores culpa delectus eius, expedita illum laboriosam nihil, nulla possimus quo ratione repudiandae unde. Consectetur eligendi eos et molestiae officia!</div>
+          <div class="conversation-block block-1">
+            <div class="societies">
+              <h4 class="societies__title">Сообщества</h4><a class="societies__view-all" href="#">Посмотреть все</a>
+              <div class="societies__threads"><a class="thread" href="#">Зачатие<img class="thread-img" src="./img/threads-ava-img-1.svg" alt="thread img"></a><a class="thread" href="#">График базальной температуры<img class="thread-img" src="./img/threads-ava-img-2.svg" alt="thread img"></a><a class="thread" href="#">Где же ты, наш малыш?<img class="thread-img" src="./img/threads-ava-img-3.svg" alt="thread img"></a><a class="thread" href="#">ЭКО-МАМА (сокровенное)<img class="thread-img" src="./img/threads-ava-img-4.svg" alt="thread img"></a><a class="thread" href="#">Планирование 40+<img class="thread-img" src="./img/threads-ava-img-5.svg" alt="thread img"></a></div>
+            </div>
+            <div class="consultations">
+              <h4 class="consultations__title">Консультации</h4><a class="consultations__view-all" href="#">Посмотреть все</a>
+              <div class="consultations__threads"><a class="thread" href="#">Неврология у взрослых<img class="thread-img" src="./img/threads-ava-img-6.svg" alt="thread img"><span class="answers-count">150 ответов</span></a><a class="thread" href="#">Гинеколог-эндокринолог<img class="thread-img" src="./img/threads-ava-img-7.svg" alt="thread img"><span class="answers-count">71 ответ</span></a><a class="thread" href="#">Гинеколог-хирург<img class="thread-img" src="./img/threads-ava-img-8.svg" alt="thread img"><span class="answers-count">253 ответа</span></a></div>
+            </div>
+            <div class="services">
+              <h4 class="services__title">Сервисы</h4>
+              <div class="services__threads"><a class="thread" href="#">Графики базальной температуры</a><a class="thread" href="#">Калькулятор овуляции</a></div>
+            </div>
+          </div>
+          <div class="conversation-block block-2">
+            <div class="consultation-advertising"><img class="consultation-advertising__img" src="./img/consultation-block-img.svg" alt="consultation image">
+              <h4 class="consultation-advertising__title">Консультация</h4>
+              <h3 class="consultation-advertising__name-of-service">Гинекология детского и подросткового возраста</h3>
+              <p class="consultation-advertising__description">Сибирская Елена Викторовна — главный внештатный гинеколог детского и подросткового возраста г.Москвы</p>
+            </div>
+          </div>
+          <div class="conversation-block block-3">
+            <div class="conversation-block__header cb-header">
+              <h2 class="cb-header__title">Вопрос-ответ</h2><a class="cb-header__button" href="#">Задать вопрос</a>
+            </div>
+            <div class="question-answer-post"><a class="question-answer-post__title" href="#">Как лечат эрозию и ВПЧ 16 типа?</a>
+              <p class="question-answer-post__description">Девочки у кого был впч 16 типа + эрозия? как лечение ваше проходило? и на сколько долго? мне прописали уколы...</p>
+              <div class="question-answer-post__answers-info"><span class="answers-count">105 ответов</span>
+                <div class="last-answer"><img class="avatar" src="./img/qa-small-avatar.svg" alt="avatar"><span class="time">5 минут назад</span></div>
+              </div>
+            </div>
+            <div class="question-answer-post"><a class="question-answer-post__title" href="#">Цикл</a>
+              <p class="question-answer-post__description">Здравствуйте, мамы! Вопрос такой, когда после родов к Вам пришли женские "друзья". И когда нормализовался...</p>
+              <div class="question-answer-post__answers-info"><span class="answers-count">21 ответ</span>
+                <div class="last-answer"><img class="avatar" src="./img/qa-small-avatar.svg" alt="avatar"><span class="time">5 минут назад</span></div>
+              </div>
+            </div>
+            <div class="question-answer-post"><a class="question-answer-post__title" href="#">Последствие Постирона? Или ранняя овуляция?</a>
+              <p class="question-answer-post__description">Девочки,ситуация такая, была беременна, сделала аборт год назад в 6 недель. Сейчас живу с МЧ, цикл...</p>
+              <div class="question-answer-post__answers-info"><span class="answers-count">103 ответа</span>
+                <div class="last-answer">
+                  <!--img.avatar(src='./img/qa-small-avatar.svg' alt='avatar')--><span class="time">5 минут назад</span>
+                </div>
+              </div>
+            </div>
+            <div class="question-answer-post"><a class="question-answer-post__title" href="#">Ангиовит + дюфастон + курантил</a>
+              <p class="question-answer-post__description">Врач дала нам 3-4 месяца на естественное зачатие. Гормоны низкие боится что пролетим. Кто быстро...</p>
+              <div class="question-answer-post__answers-info"><span class="answers-count">66 ответов</span></div>
+              <!--    div.last-answer-->
+              <!--        img.avatar(src='./img/qa-small-avatar.svg' alt='avatar')-->
+              <!--        span.time 5 минут назад-->
+            </div>
+            <div class="question-answer-post"><a class="question-answer-post__title" href="#">Цикл</a>
+              <p class="question-answer-post__description">Здравствуйте, мамы! Вопрос такой, когда после родов к Вам пришли женские "друзья". И когда нормализовался...</p>
+              <div class="question-answer-post__answers-info"><span class="answers-count">105 ответов</span>
+                <div class="last-answer"><img class="avatar" src="./img/qa-small-avatar.svg" alt="avatar"><span class="time">5 минут назад</span></div>
+              </div>
+            </div><a class="show-all-results" href="#">Посмотреть все вопросы</a>
+          </div>
         </section>
         <section class="map-container">
           <div class="help-window">
             <h2 class="help-window__title">Клиники репродуктологии и ЭКО в Казани</h2>
             <div class="help-window__other-info"><span class="count-of-services">5 клиник,</span><span class="count-of-comments">230 отзывов</span></div>
-            <button class="help-window__btn" data-hover="Подобрать клинику"><span class="decoration_element">Подобрать клинику</span></button>
+            <button class="help-window__btn">Подобрать клинику</button>
           </div>
           <div id="map"></div>
+        </section>
+        <section class="birth-stories">
+          <h3 class="bs">Истории рождения 👶 🎈</h3>
+          <div class="block">
+            <div class="block__header">
+              <div class="author">Александра Нечаева<img class="avatar" src="./img/qa-small-avatar.svg" alt="avatar"></div><span class="post-date">Вчера</span><img class="additional-actions" src="/img/dots-ico.svg" alt="dots icon">
+            </div>
+            <div class="block__text"><a class="title" href="#">Третьи роды, или как я не успела ничего понять</a>
+              <p class="description">Всем привет. Моя история в копилку про то, что третьи роды - это ооочень быстро. Хотя я сама почему-то наивно думала, что у меня-то все будет плавно, постепенно и по плану...</p>
+            </div>
+            <div class="block__icons icons">
+              <button class="icons__elem icons__elem--like">25</button>
+              <button class="icons__elem icons__elem--answers">427</button>
+              <button class="icons__elem icons__elem--share">12</button>
+            </div>
+          </div>
+          <div class="block">
+            <div class="block__header">
+              <div class="author">Александра Нечаева<img class="avatar" src="./img/qa-small-avatar.svg" alt="avatar"></div><span class="post-date">Вчера</span><img class="additional-actions" src="/img/dots-ico.svg" alt="dots icon">
+            </div>
+            <div class="block__text"><a class="title" href="#">Третьи роды, или как я не успела ничего понять</a>
+              <p class="description">Всем привет. Моя история в копилку про то, что третьи роды - это ооочень быстро. Хотя я сама почему-то наивно думала, что у меня-то все будет плавно, постепенно и по плану...</p>
+            </div>
+            <div class="block__icons icons"><span class="icons__elem icons__elem--like">25</span><span class="icons__elem icons__elem--answers">427</span><span class="icons__elem icons__elem--share">12</span></div>
+          </div>
+          <div class="block">
+            <div class="block__header">
+              <div class="author">Александра Нечаева<img class="avatar" src="./img/qa-small-avatar.svg" alt="avatar"></div><span class="post-date">Вчера</span><img class="additional-actions" src="/img/dots-ico.svg" alt="dots icon">
+            </div>
+            <div class="block__text"><a class="title" href="#">Третьи роды, или как я не успела ничего понять</a>
+              <p class="description">Всем привет. Моя история в копилку про то, что третьи роды - это ооочень быстро. Хотя я сама почему-то наивно думала, что у меня-то все будет плавно, постепенно и по плану...</p>
+            </div>
+            <div class="block__icons icons"><span class="icons__elem icons__elem--like">25</span><span class="icons__elem icons__elem--answers">427</span><span class="icons__elem icons__elem--share">12</span></div>
+          </div>
+          <div class="block">
+            <div class="block__header">
+              <div class="author">Александра Нечаева<img class="avatar" src="./img/qa-small-avatar.svg" alt="avatar"></div><span class="post-date">Вчера</span><img class="additional-actions" src="/img/dots-ico.svg" alt="dots icon">
+            </div>
+            <div class="block__text"><a class="title" href="#">Третьи роды, или как я не успела ничего понять</a>
+              <p class="description">Всем привет. Моя история в копилку про то, что третьи роды - это ооочень быстро. Хотя я сама почему-то наивно думала, что у меня-то все будет плавно, постепенно и по плану...</p>
+            </div>
+            <div class="block__icons icons"><span class="icons__elem icons__elem--like">25</span><span class="icons__elem icons__elem--answers">427</span><span class="icons__elem icons__elem--share">12</span></div>
+          </div><a class="show-all-results" href="">Ещё истории</a>
+        </section>
+        <section class="banner">Баннер</section>
+        <section class="footer">
+          <div class="footer__menu"><a class="link" href="#">О проекте</a><a class="link" href="#">Реклама на сайте</a><a class="link" href="#">Соглашение с пользователями</a><a class="link" href="#">Правообладателям</a><a class="link" href="#">Помощь</a></div>
+          <div class="footer__other-content"><span>16+</span>
+            <p class="about">Бэбиблог — сайт о беременности и материнстве. Дневники беременности и развития детей, календарь беременности, отзывы о товарах, роддома, а также множество других полезных разделов и сервисов. © 2005—2019</p><img class="metrica" src="../img/metrica-fake-img.svg" alt="metrica">
+          </div>
         </section>
       </div>
     </div>

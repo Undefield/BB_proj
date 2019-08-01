@@ -1,0 +1,21 @@
+@mixin link-style($margin: 6px 0)
+  margin: $margin
+  color: $colorBlue
+  text-decoration: underline
+  text-decoration-color: rgb(219, 234, 252)
+@mixin common-btn-style($borderRadius: $normalBorderRadius)
+  color: $colorWhite
+  background: $mainGradient
+  border-radius: $borderRadius
+@mixin addIconBeforeText($url, $margin-right: 6px)
+  &::before
+    content: url($url) // динамика
+    margin-right: $margin-right
+@mixin smallAvatarIconSettings($avatarBorderRadius: 3px)
+  width: 20px
+  height: 20px
+  border-radius: $avatarBorderRadius
+@mixin bigAvatarIconSettings($avatarBorderRadius: 3px)
+  width: 20px
+  height: 20px
+  border-radius: $avatarBorderRadius

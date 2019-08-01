@@ -1,20 +1,24 @@
 extends:
-  # - stylelint-config-sass-guidelines # stylelint-config-standard
   - stylelint-config-standard
   - stylelint-config-property-sort-order-smacss
+  - stylelint-config-sass-guidelines
 plugins:
-  # - stylelint-order
   - stylelint-scss
 
 rules:
-  "block-closing-brace-empty-line-before": null,
-  "block-closing-brace-newline-after": null,
-  "block-closing-brace-newline-before": null,
-  "block-closing-brace-space-before": null,
-  "block-opening-brace-newline-after": null,
-  "block-opening-brace-space-after": null,
-  "block-opening-brace-space-before": null,
-  "declaration-block-semicolon-newline-after": null,
-  "declaration-block-semicolon-space-after": null,
-  "declaration-block-semicolon-space-before": null,
+  "scss/dollar-variable-pattern": '\b([a-z]+[0-9]*)(([A-Z]([a-z0-9]+)?)+)?\b'
+  "order/properties-alphabetical-order": null
+  "max-nesting-depth": 3
+  # START----- из SCSS в SASS адаптация
+  "block-closing-brace-empty-line-before": null
+  "block-closing-brace-newline-after": null
+  "block-closing-brace-newline-before": null
+  "block-closing-brace-space-before": null
+  "block-opening-brace-newline-after": null
+  "block-opening-brace-space-after": null
+  "block-opening-brace-space-before": null
+  "declaration-block-semicolon-newline-after": null
+  "declaration-block-semicolon-space-after": null
+  "declaration-block-semicolon-space-before": null
   "declaration-block-trailing-semicolon": null
+  # END----- из SCSS в SASS адаптация
