@@ -31,7 +31,7 @@
     "gulp-stylus": "^2.7.0",
     "gulp-uglifyjs": "^0.6.2",
     "node-sass": "^4.12.0",
-    "pug": "^2.0.3",
+    "pug": "^3.0.1",
     "rm": "^0.1.8",
     "sass-lint": "^1.13.1",
     "stylelint-config-property-sort-order-smacss": "^5.0.0",
