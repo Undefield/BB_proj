@@ -30,7 +30,7 @@
     "gulp-size": "^3.0.0",
     "gulp-stylus": "^2.7.0",
     "gulp-uglifyjs": "^0.6.2",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "pug": "^2.0.3",
     "rm": "^0.1.8",
     "sass-lint": "^1.13.1",
